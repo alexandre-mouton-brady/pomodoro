@@ -72,7 +72,7 @@ const cached = [
   },
   {
     "url": "index.html",
-    "revision": "9a48e935860f6800c2c401b857d284d6"
+    "revision": "e8300c273522c39928af6d78d00b68bd"
   }
 ];
 

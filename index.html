@@ -12,8 +12,8 @@
   <meta name="application-name" content="Pomodoro">
   <meta name="mobile-web-app-capable" content="yes">
 
-  <link rel="manifest" href="/manifest.webmanifest">
-  <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png">
+  <link rel="manifest" href="/pomodoro/manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="/pomodoro/favicon.png">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
@@ -21,7 +21,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js').then(registration => {
+        navigator.serviceWorker.register('/pomodoro/sw.js').then(registration => {
           console.log('SW registered: ', registration);
         }).catch(registrationError => {
           console.log('SW registration failed: ', registrationError);
@@ -37,7 +37,7 @@
     activate JavaScript &#x1F926;
   </h1>
 
-  <script  type="text/javascript" src="/app.js"></script>
+  <script  type="text/javascript" src="/pomodoro/app.js"></script>
 </body>
 
 </html>
