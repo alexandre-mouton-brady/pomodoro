@@ -2,7 +2,7 @@
 
 [Link to the challenge](https://scotch.io/tutorials/code-challenge-6-build-a-pomodoro-timer)
 
-![Preview of the application](./screenshots/sample.png)
+![Preview of the application](./public/screenshots/sample.png)
 
 ## What I've used
 
@@ -16,7 +16,7 @@
 
 I set myself an extra challenge to make it a 100/100 PWA. Thanks to WorkBox and some proper meta tags it's mission accomplished! See the results from the Google Chrome Lighthouse Audit:
 
-![PWA Score](./screenshots/score.png)
+![PWA Score](./public/screenshots/score.png)
 
 ## Complentary information
 
