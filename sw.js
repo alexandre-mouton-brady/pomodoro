@@ -27,7 +27,7 @@ workbox.clientsClaim();
 const cached = [
   {
     "url": "app.js",
-    "revision": "46294378e31122e6baf3d365c119bd09"
+    "revision": "8f136cb406673557995669ab42081e7f"
   },
   {
     "url": "favicon.png",
@@ -64,6 +64,14 @@ const cached = [
   {
     "url": "index.html",
     "revision": "e8300c273522c39928af6d78d00b68bd"
+  },
+  {
+    "url": "screenshots/sample.png",
+    "revision": "f015fb22f30c15955ba54bc7b06accc2"
+  },
+  {
+    "url": "screenshots/score.png",
+    "revision": "ae8b444cbc81045ff6c73d40b14d0a4f"
   }
 ];
 
