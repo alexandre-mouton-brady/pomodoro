@@ -18,15 +18,6 @@ importScripts(
 workbox.skipWaiting();
 workbox.clientsClaim();
 
-workbox.routing(
-  'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css',
-  workbox.strategies.networkFirst(),
-);
-workbox.routing(
-  'https://use.fontawesome.com/releases/v5.0.6/css/all.css',
-  workbox.strategies.networkFirst(),
-);
-
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
  * requests for URLs in the manifest.
