@@ -1,4 +1,4 @@
-node_modules
-.fuse-box
+node_modules/
+.fuse-box/
 yarn.lock
-dist
+dist/
