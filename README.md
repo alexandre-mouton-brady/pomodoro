@@ -18,7 +18,7 @@ I set myself an extra challenge to make it a 100/100 PWA. Thanks to WorkBox and 
 
 ![PWA Score](./public/screenshots/score.png)
 
-## Complentary information
+## Complementary information
 
 If you want to install the app you'll have to:
 
