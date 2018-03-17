@@ -5,13 +5,15 @@
   "license": "MIT",
   "scripts": {
     "dev": "node fuse dev",
-    "build": "node fuse build && workbox injectManifest"
+    "build": "node fuse build && workbox injectManifest",
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "dependencies": {
     "hyperhtml": "^2.6.0"
   },
   "devDependencies": {
     "fuse-box": "^3.1.3",
+    "gh-pages": "^1.1.0",
     "typescript": "^2.7.2",
     "uglify-es": "^3.3.9",
     "uglify-js": "^3.3.15",

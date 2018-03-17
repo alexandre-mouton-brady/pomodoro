@@ -1,11 +1,5 @@
 const { resolve } = require('path');
-const {
-  FuseBox,
-  QuantumPlugin,
-  WebIndexPlugin,
-  StylusPlugin,
-  CSSPlugin,
-} = require('fuse-box');
+const { FuseBox, QuantumPlugin, WebIndexPlugin } = require('fuse-box');
 const { src, clean, task, exec, context } = require('fuse-box/sparky');
 
 context(
@@ -21,10 +15,10 @@ context(
         debug: true,
         sourceMaps: !this.isProd,
         plugins: [
-          WebIndexPlugin({ template: 'src/index.html' }),
-
-          this.isProd && [StylusPlugin({ compress: true }), CSSPlugin()],
-          !this.isProd && [StylusPlugin(), CSSPlugin()],
+          WebIndexPlugin({
+            template: 'src/index.html',
+            path: '/pomodoro/',
+          }),
 
           this.isProd &&
             QuantumPlugin({
