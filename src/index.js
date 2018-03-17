@@ -65,6 +65,19 @@ function render({ minutes, seconds }) {
       line-height: 1;
       margin-bottom: 40px;
     }
+
+    a {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      color: #fff;
+      font-size: 18px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   `;
 
   // Bind acts like a mount method
@@ -104,5 +117,7 @@ function render({ minutes, seconds }) {
         </div>
       </div>
     </section>
+
+    <a href="https://github.com/alexandre-mouton-brady/pomodoro">Source Code</a>
   `;
 }
