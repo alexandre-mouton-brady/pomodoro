@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pomodoro</title>
+  <meta name="description" content="Simple pomodoro for Scotch.io challenge #6">
+
+  <meta name="theme-color" content="#04a6d7">
+  <meta name="application-name" content="Pomodoro">
+  <meta name="mobile-web-app-capable" content="yes">
+
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css">
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').then(registration => {
+          console.log('SW registered: ', registration);
+        }).catch(registrationError => {
+          console.log('SW registration failed: ', registrationError);
+        });
+      });
+    }
+  </script>
+</head>
+
+<body>
+  <h1 style="text-align: center; max-width: 500px; margin: 20px auto; padding: 20px;">
+    If you can see this message, it's already too late, the world has been corrupted and the machines won... or you forgot to
+    activate JavaScript &#x1F926;
+  </h1>
+
+  $bundles
+</body>
+
+</html>
