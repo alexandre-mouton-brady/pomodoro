@@ -3,6 +3,7 @@
       id=${e}
       class="button is-dark is-large"
       onclick=${t=>r.$store[`${e}Timer`]()}
+      aria-label=${`${e} button`}
     >
       <i class=${o}></i>
     </button>

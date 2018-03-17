@@ -27,7 +27,7 @@ workbox.clientsClaim();
 const cached = [
   {
     "url": "app.js",
-    "revision": "358961f8312f02e4f0fea022c790aea9"
+    "revision": "46294378e31122e6baf3d365c119bd09"
   },
   {
     "url": "favicon.png",
