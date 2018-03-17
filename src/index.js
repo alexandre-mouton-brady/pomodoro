@@ -31,6 +31,7 @@ function btn(action, wireName, iconClasses) {
       id=${action}
       class="button is-dark is-large"
       onclick=${onclick}
+      aria-label=${`${action} button`}
     >
       <i class=${classes}></i>
     </button>
