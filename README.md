@@ -1,4 +1,4 @@
-# Soch.io - Pomodoro Timer Challenge
+# Scotch.io - Pomodoro Timer Challenge
 
 [Link to the challenge](https://scotch.io/tutorials/code-challenge-6-build-a-pomodoro-timer)
 
